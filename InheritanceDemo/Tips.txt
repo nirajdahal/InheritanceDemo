@@ -1,0 +1,34 @@
+﻿i> Inheritance
+
+-Inheritance is to  extend something that doesnot mean you try to inherit everything
+- To know whether to inherit or not, validate is a realationship.
+	ex: A Corola is a car. Corola inherits from Car but if we inherit JCB from Car then it doesnot
+	satisfy JCB is a Car. Therfore inheritance is not always the right approach
+-Everything parent class must be applicable for child class in order to inherit
+-Dont try to inherit everything 
+- If the thing that you want to inherit doesnot fits in then dont inherit
+-                   public class Phone 
+                        {
+
+                            public void PlaceCall()
+                            {
+
+                            }
+
+                            public void EndCall()
+                            {
+
+                            }
+                        }
+
+    //Dont inherit walkie talkie from phone. Even if the walkie talkie allows is applicable to call both method that phone has(place and end call)
+    //Even if we can inherit from it we should not inherit beacuse a walkie talkie is not a cell phone
+                            public class WalkieTalkie : Phone
+                            {
+
+                            }
+
+
+- How to loop through List<Parent> and extract child data
+
+Pro Tips: Imheritance Seems like a magic cure but it is not. Use it sparingly and follow the "is a rule".
