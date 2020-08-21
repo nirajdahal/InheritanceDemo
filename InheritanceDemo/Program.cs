@@ -7,7 +7,7 @@ namespace InheritanceDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
             //Corola car1 = new Corola();
             //car1.NumberOfDoors = 5;
             //car1.NumberOfWheels = 10;
